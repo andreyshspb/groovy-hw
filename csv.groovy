@@ -10,7 +10,7 @@ interface RecordAPI {
 }
 
 class RecordStringView implements RecordAPI {
-	Record proxyableRecord
+    Record proxyableRecord
 
 	RecordStringView(Record record) {
 		proxyableRecord = record
